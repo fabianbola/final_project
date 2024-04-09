@@ -4,9 +4,9 @@ body{
 }
 
 div{
-    border: 1px;
+    /* border: 1px;
     border-color: gray;
-    border-style: solid;
+    border-style: solid; */
 }
 
 
@@ -86,23 +86,69 @@ div{
     margin: 15px;
     }
 
-#agentImage:hover{
-    float: left;
-    position: relative;
-    clip-path: circle(50%);
-    width: 330px;
-    height: 330px;
-    top: -50px;
-
-    background-size: cover;
-    top: -50px;
-}
-
 #agentTex{
     margin: auto 95px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     line-height: 2;
     font-size: 20px;
+}
+
+#botonContainer{
+    float: left;
+    position: relative;
+    left: 15px;
+    height: 45px;
+    display: flex;
+    left: -100;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.contactBoton{
+    width: 20px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contactBoton:hover{
+    width: 40px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#container2{
+    background-color: #102F6B;
+    padding-top: 10px;
+    width: 100%;
 
 }
+#subtittle1{
+    color: #F8F8F8; 
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#testsubtittle1{
+    color: #F8F8F8; 
+    margin-top: 0px;
+    text-align: center;
+}
+
+.apartmentContainer{
+    background-color: #F8F8F8;
+    width: 260px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 35% 50% 5% 5%;
+}
+
+.apartment{
+    width: 260px;
+    height: 200px;
+    border-radius: 12% 12% 0% 60%;
+}
+
