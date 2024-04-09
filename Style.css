@@ -38,11 +38,9 @@ div{
 }
 
 .contactUs{
-
     padding: 15px;
     text-align: center;
     width: 100px;
-    border: 1px;
     border-style: solid;
     margin: auto;
     background-color: #102F6B;
@@ -66,13 +64,14 @@ div{
     text-align: center;
     width: 50%;
     top: 28px;
+    color: #102F6B;  
 }
 
 #introduction{
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: auto;    
+    margin: auto;  
 }
 
 #agentImage{
@@ -134,16 +133,16 @@ div{
 
 #testsubtittle1{
     color: #F8F8F8; 
-    margin-top: 0px;
+    margin-top: 10px;
     text-align: center;
 }
 
 .apartmentContainer{
     background-color: #F8F8F8;
     width: 260px;
-    height: 400px;
+    height: 420px;
     margin: 50px;
-    border-radius: 35% 50% 5% 5%;
+    border-radius: 15% 50% 5% 5%;
 }
 
 .apartment{
@@ -152,3 +151,94 @@ div{
     border-radius: 12% 12% 0% 60%;
 }
 
+.ulApartmen{
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 15px;
+    line-height: 2.5;
+    position: relative;
+    top: -25px;
+}
+
+.addresApartmen{
+    font-size: 30px;
+}
+
+.moreDetail{
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    border-style: solid;
+    margin: auto;
+    background-color: #102F6B;
+    color: white;
+    border: 1px solid black; /* Borde para visualización */
+    border-radius: 20px;
+    position: relative;
+    top: -30px;
+
+}
+
+.moreDetail:hover{
+    border-color: #102F6B;
+    border-style: solid;
+    background-color: white;
+    color: #102F6B;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#container3{
+    background-color: #F8F8F8;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#subtittle2{
+    color: #102F6B; 
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#testsubtittle2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#imagenBusqueda{
+    width: 100%;
+    position: relative; /* Establece posición relativa para los elementos hijos */
+    top: -100px;
+}
+
+#imagenBusqueda img{
+    position: absolute;
+    clip: rect(103px,auto,517px,auto);
+    width: 100%;
+    filter: brightness(50%)
+
+}
+
+#footerLeft{
+    float: left;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    line-height: 0.5;
+}
+
+#footerRight{
+    float: right;
+    position: relative;
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
