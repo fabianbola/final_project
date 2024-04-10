@@ -93,7 +93,7 @@ div{
     font-size: 20px;
 }
 
-#botonContainer{
+.botonContainer{
     float: left;
     position: relative;
     left: 15px;
@@ -118,20 +118,20 @@ div{
     padding-bottom: 0px;
 }
 
-#container2{
+.container2{
     background-color: #102F6B;
     padding-top: 10px;
     width: 100%;
 
 }
-#subtittle1{
+.subtittle1{
     color: #F8F8F8; 
     margin-bottom: 0px;
     text-align: center;
     width: 100%;
 }
 
-#testsubtittle1{
+.testsubtittle1{
     color: #F8F8F8; 
     margin-top: 10px;
     text-align: center;
@@ -221,7 +221,7 @@ div{
 
 }
 
-#footerLeft{
+.footerLeft{
     float: left;
     position: relative;
     width: 50%;
@@ -229,7 +229,7 @@ div{
     line-height: 0.5;
 }
 
-#footerRight{
+.footerRight{
     float: right;
     position: relative;
     width: 50%;
@@ -241,4 +241,125 @@ footer{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#tittleDetail{
+    width: 100%;
+    height: 110px;
+    background-color: #030303;
+    text-align: center;
+    color: white;
+}
+
+.Detail{
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#propertyImage{
+    width: 600px; 
+    margin: auto;
+}
+
+#propertyText{
+    width: 90%;
+    margin: auto;
+    line-height: 1.5
+}
+
+.Seller{
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 190px;
+    margin-right: 32px;
+    border: 2px;
+    border-color: #102F6B;
+    border-style: solid
+}
+
+.contacUsForm{
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    margin-right: 32px;
+    border: 2px;
+    border-color: #102F6B;
+    border-style: solid
+}
+
+textarea
+{
+resize: none;
+overflow-y: scroll;
+height:100px;
+border: 2px;
+border-color: #102F6B;
+border-style: solid
+}
+
+input{
+    border: 2px;
+    border-color: #102F6B;
+    border-style: solid
+}
+
+.fieldForm{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottonform{
+    background-color: #102F6B;
+    color: white;
+    width: 138px;
+    padding: 11px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.mainDetails{
+    padding: 5px;
+    width: 30%;
+    height: 75px;
+    text-align: center;
+}
+
+#mainDetailsCountainer{
+    background-color: #F8F8F8;
+    width: 80%;
+    margin: auto;
+}
+
+.fieldFormContactUs{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+  }
+
+#containerContactus{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border: 2px;
+    border-color: #102F6B;
+    border-style: solid;
+    padding: 50px;
 }
